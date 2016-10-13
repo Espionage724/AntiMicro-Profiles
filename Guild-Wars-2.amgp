@@ -8,24 +8,6 @@
     <sets>
         <set index="1">
             <stick index="1">
-                <stickbutton index="7">
-                    <actionname>Strafe Left</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x51</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
-                <stickbutton index="5">
-                    <actionname>Move Backwards</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x53</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
                 <stickbutton index="3">
                     <actionname>Strafe Right</actionname>
                     <slots>
@@ -44,26 +26,27 @@
                         </slot>
                     </slots>
                 </stickbutton>
-            </stick>
-            <stick index="2">
-                <diagonalRange>65</diagonalRange>
                 <stickbutton index="7">
-                    <actionname>Turn Left</actionname>
+                    <actionname>Strafe Left</actionname>
                     <slots>
                         <slot>
-                            <code>3</code>
-                            <mode>mousemovement</mode>
+                            <code>0x51</code>
+                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </stickbutton>
                 <stickbutton index="5">
+                    <actionname>Move Backwards</actionname>
                     <slots>
                         <slot>
-                            <code>2</code>
-                            <mode>mousemovement</mode>
+                            <code>0x53</code>
+                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </stickbutton>
+            </stick>
+            <stick index="2">
+                <diagonalRange>65</diagonalRange>
                 <stickbutton index="3">
                     <actionname>Turn Right</actionname>
                     <slots>
@@ -81,6 +64,23 @@
                         </slot>
                     </slots>
                 </stickbutton>
+                <stickbutton index="7">
+                    <actionname>Turn Left</actionname>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
                 <stickmodifierbutton index="1">
                     <slots>
                         <slot>
@@ -91,6 +91,57 @@
                 </stickmodifierbutton>
             </stick>
             <dpad index="1">
+                <dpadbutton index="8">
+                    <actionname>Profession Skill 2</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x1000031</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="9">
+                    <slots>
+                        <slot>
+                            <code>0x38</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="12">
+                    <slots>
+                        <slot>
+                            <code>0x36</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <actionname>Profession Skill 3</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x1000032</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>0x32</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="1">
+                    <actionname>Profession Skill 1</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x1000030</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
                 <dpadbutton index="6">
                     <slots>
                         <slot>
@@ -121,57 +172,6 @@
                         <slot>
                             <code>200</code>
                             <mode>release</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="3">
-                    <slots>
-                        <slot>
-                            <code>0x32</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="2">
-                    <actionname>Profession Skill 3</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x1000032</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="1">
-                    <actionname>Profession Skill 1</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x1000030</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="12">
-                    <slots>
-                        <slot>
-                            <code>0x36</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="9">
-                    <slots>
-                        <slot>
-                            <code>0x38</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="8">
-                    <actionname>Profession Skill 2</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x1000031</code>
-                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </dpadbutton>
@@ -237,7 +237,7 @@
                 </slots>
             </button>
             <button index="5">
-                <actionname>Cycle Targets/Map</actionname>
+                <actionname>Interact/Map</actionname>
                 <slots>
                     <slot>
                         <code>200</code>
@@ -252,7 +252,7 @@
                         <mode>release</mode>
                     </slot>
                     <slot>
-                        <code>0x1000001</code>
+                        <code>0x46</code>
                         <mode>keyboard</mode>
                     </slot>
                     <slot>
@@ -271,7 +271,7 @@
                 </slots>
             </button>
             <button index="7">
-                <actionname>Interact/Swap Weapons</actionname>
+                <actionname>Cycle Targets/Swap Weapons</actionname>
                 <slots>
                     <slot>
                         <code>200</code>
@@ -286,7 +286,7 @@
                         <mode>release</mode>
                     </slot>
                     <slot>
-                        <code>0x46</code>
+                        <code>0x1000001</code>
                         <mode>keyboard</mode>
                     </slot>
                     <slot>
@@ -338,24 +338,6 @@
         </set>
         <set index="2">
             <stick index="1">
-                <stickbutton index="7">
-                    <actionname>Strafe Left</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x51</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
-                <stickbutton index="5">
-                    <actionname>Move Backwards</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x53</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </stickbutton>
                 <stickbutton index="3">
                     <actionname>Strafe Right</actionname>
                     <slots>
@@ -374,26 +356,27 @@
                         </slot>
                     </slots>
                 </stickbutton>
-            </stick>
-            <stick index="2">
-                <diagonalRange>65</diagonalRange>
                 <stickbutton index="7">
-                    <actionname>Turn Left</actionname>
+                    <actionname>Strafe Left</actionname>
                     <slots>
                         <slot>
-                            <code>3</code>
-                            <mode>mousemovement</mode>
+                            <code>0x51</code>
+                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </stickbutton>
                 <stickbutton index="5">
+                    <actionname>Move Backwards</actionname>
                     <slots>
                         <slot>
-                            <code>2</code>
-                            <mode>mousemovement</mode>
+                            <code>0x53</code>
+                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </stickbutton>
+            </stick>
+            <stick index="2">
+                <diagonalRange>65</diagonalRange>
                 <stickbutton index="3">
                     <actionname>Turn Right</actionname>
                     <slots>
@@ -411,8 +394,76 @@
                         </slot>
                     </slots>
                 </stickbutton>
+                <stickbutton index="7">
+                    <actionname>Turn Left</actionname>
+                    <slots>
+                        <slot>
+                            <code>3</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
+                <stickbutton index="5">
+                    <slots>
+                        <slot>
+                            <code>2</code>
+                            <mode>mousemovement</mode>
+                        </slot>
+                    </slots>
+                </stickbutton>
             </stick>
             <dpad index="1">
+                <dpadbutton index="8">
+                    <actionname>Profession Skill 2</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x1000031</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="9">
+                    <slots>
+                        <slot>
+                            <code>0x38</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="12">
+                    <slots>
+                        <slot>
+                            <code>0x36</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="2">
+                    <actionname>Profession Skill 3</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x1000032</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="3">
+                    <slots>
+                        <slot>
+                            <code>0x32</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
+                <dpadbutton index="1">
+                    <actionname>Profession Skill 1</actionname>
+                    <slots>
+                        <slot>
+                            <code>0x1000030</code>
+                            <mode>keyboard</mode>
+                        </slot>
+                    </slots>
+                </dpadbutton>
                 <dpadbutton index="6">
                     <slots>
                         <slot>
@@ -443,57 +494,6 @@
                         <slot>
                             <code>200</code>
                             <mode>release</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="3">
-                    <slots>
-                        <slot>
-                            <code>0x32</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="2">
-                    <actionname>Profession Skill 3</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x1000032</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="1">
-                    <actionname>Profession Skill 1</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x1000030</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="12">
-                    <slots>
-                        <slot>
-                            <code>0x36</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="9">
-                    <slots>
-                        <slot>
-                            <code>0x38</code>
-                            <mode>keyboard</mode>
-                        </slot>
-                    </slots>
-                </dpadbutton>
-                <dpadbutton index="8">
-                    <actionname>Profession Skill 2</actionname>
-                    <slots>
-                        <slot>
-                            <code>0x1000031</code>
-                            <mode>keyboard</mode>
                         </slot>
                     </slots>
                 </dpadbutton>
@@ -558,7 +558,7 @@
                 </slots>
             </button>
             <button index="5">
-                <actionname>Cycle Targets/Map</actionname>
+                <actionname>Interact/Map</actionname>
                 <slots>
                     <slot>
                         <code>200</code>
@@ -573,7 +573,7 @@
                         <mode>release</mode>
                     </slot>
                     <slot>
-                        <code>0x1000001</code>
+                        <code>0x46</code>
                         <mode>keyboard</mode>
                     </slot>
                     <slot>
@@ -592,7 +592,7 @@
                 </slots>
             </button>
             <button index="7">
-                <actionname>Interact/Swap Weapons</actionname>
+                <actionname>Cycle Targets/Swap Weapons</actionname>
                 <slots>
                     <slot>
                         <code>200</code>
@@ -607,7 +607,7 @@
                         <mode>release</mode>
                     </slot>
                     <slot>
-                        <code>0x46</code>
+                        <code>0x1000001</code>
                         <mode>keyboard</mode>
                     </slot>
                     <slot>
